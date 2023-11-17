@@ -1,0 +1,102 @@
+*{
+    padding: 0px; 
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 1rem;
+    color: black;
+    height: 9rem;
+    align-self: flex-start;
+}
+
+body{
+    font-size: 2rem;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+p{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.quadrado{
+    border-style: double; 
+    border-width: 10px 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    padding: 0 2.4rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 14rem;
+}
+
+.nav-logo {
+    width: 10%;
+}
+
+.logotipo{
+    height: 140px;
+    width: 130px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-texto{
+    font-size:20.8px;
+    margin-left: 10px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.jorge:hover{
+    background-color: rgba(54, 57, 59, 0.589);
+    border-radius: 10px;
+}
+
+.gob{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
